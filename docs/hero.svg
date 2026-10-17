@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cue</title>
+  <desc id="desc">Cue, a macOS menu bar app that steadies Wi-Fi for GeForce NOW: it turns AWDL off and silences AirDrop while the game runs, then restores both. A log excerpt of a real session sits on the right.</desc>
+
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB340"/>
+      <stop offset="1" stop-color="#E8530C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="#140F0D"/>
+
+  <g id="title-block" transform="translate(64 0)">
+    <text x="0" y="86" fill="#FF9A3C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2.5">MACOS MENU BAR APP · GEFORCE NOW</text>
+
+    <g id="app-icon" transform="translate(0 112)">
+      <rect width="112" height="112" rx="26" fill="url(#orange)"/>
+      <g transform="scale(0.1359)" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round">
+        <path d="M 305.93 493.93 A 150 150 0 0 1 518.07 493.93"/>
+        <path d="M 221.08 409.08 A 270 270 0 0 1 602.92 409.08"/>
+        <path d="M 136.23 324.23 A 390 390 0 0 1 687.77 324.23"/>
+      </g>
+      <path transform="scale(0.1359)" fill="#FFFFFF" fill-rule="evenodd" d="M 393 555 H 431 A 14 14 0 0 1 445 569 V 617 H 493 A 14 14 0 0 1 507 631 V 669 A 14 14 0 0 1 493 683 H 445 V 731 A 14 14 0 0 1 431 745 H 393 A 14 14 0 0 1 379 731 V 683 H 331 A 14 14 0 0 1 317 669 V 631 A 14 14 0 0 1 331 617 H 379 V 569 A 14 14 0 0 1 393 555 Z M 395 650 A 17 17 0 1 0 429 650 A 17 17 0 1 0 395 650 Z"/>
+    </g>
+    <text x="140" y="204" fill="#FFF4EA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="104" font-weight="700" letter-spacing="-3">Cue</text>
+
+    <text x="0" y="286" fill="#FFF4EA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="600">Steady Wi-Fi for cloud gaming on Mac.</text>
+    <text x="0" y="326" fill="#B9A89C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">Starts with GeForce NOW and stops when it quits:</text>
+    <text x="0" y="356" fill="#B9A89C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">AWDL off, AirDrop silenced, your LG TV on the Mac.</text>
+  </g>
+
+  <g id="session-log" transform="translate(664 45)">
+    <rect width="472" height="330" rx="18" fill="#221915"/>
+    <path d="M 0 18 A 18 18 0 0 1 18 0 H 454 A 18 18 0 0 1 472 18 V 52 H 0 Z" fill="#2E231E"/>
+    <text x="24" y="33" fill="#B9A89C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">cue-network-service.log</text>
+
+    <g id="menu-bar-glyph" transform="translate(386 12)" fill="#FFF4EA">
+      <path fill-rule="evenodd" d="M 10 0 H 18 A 3 3 0 0 1 21 3 V 7 H 25 A 3 3 0 0 1 28 10 V 18 A 3 3 0 0 1 25 21 H 21 V 25 A 3 3 0 0 1 18 28 H 10 A 3 3 0 0 1 7 25 V 21 H 3 A 3 3 0 0 1 0 18 V 10 A 3 3 0 0 1 3 7 H 7 V 3 A 3 3 0 0 1 10 0 Z M 10.5 14 A 3.5 3.5 0 1 0 17.5 14 A 3.5 3.5 0 1 0 10.5 14 Z"/>
+      <circle cx="30" cy="2" r="4" fill="#FF9A3C"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+      <circle cx="30" cy="102" r="5" fill="#FF9A3C"/>
+      <text x="46" y="108" fill="#8C7C71">14:05:55</text>
+      <text x="146" y="108" fill="#FFF4EA">GeForce NOW started</text>
+      <text x="146" y="134" fill="#FF9A3C">AWDL off</text>
+
+      <circle cx="30" cy="178" r="5" fill="#FF9A3C"/>
+      <text x="46" y="184" fill="#8C7C71">14:05:56</text>
+      <text x="146" y="184" fill="#FFF4EA">AirDrop set to Off</text>
+
+      <circle cx="30" cy="228" r="5" fill="#5BD08A"/>
+      <text x="46" y="234" fill="#8C7C71">14:06:25</text>
+      <text x="146" y="234" fill="#FFF4EA">AirDrop set to Contacts Only</text>
+
+      <circle cx="30" cy="278" r="5" fill="#5BD08A"/>
+      <text x="46" y="284" fill="#8C7C71">14:06:25</text>
+      <text x="146" y="284" fill="#FFF4EA">Session ended</text>
+      <text x="146" y="310" fill="#5BD08A">AWDL restored</text>
+    </g>
+  </g>
+</svg>

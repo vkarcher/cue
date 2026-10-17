@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E100000000000000000004 /* CueNetworkService in Embed Network Service */ = {isa = PBXBuildFile; fileRef = C0E100000000000000000005 /* CueNetworkService */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E100000000000000000006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E100000000000000000007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E000000000000000000007;
+			remoteInfo = CueNetworkService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0E100000000000000000008 /* Embed Network Service */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				C0E100000000000000000004 /* CueNetworkService in Embed Network Service */,
+			);
+			name = "Embed Network Service";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E100000000000000000009 /* Copy Launch Daemon Definition */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			name = "Copy Launch Daemon Definition";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0E100000000000000000005 /* CueNetworkService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CueNetworkService; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E10000000000000000000A /* Cue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E10000000000000000000B /* CueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C0E10000000000000000000C /* Exceptions for "Cue" folder in "Cue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				"Resources/LaunchDaemons/com.vkarcher.cue.network-service.plist",
+			);
+			target = C0E00000000000000000000D /* Cue */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C0E10000000000000000000D /* Exceptions for "Cue" folder in "Copy Launch Daemon Definition" phase from "Cue" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C0E100000000000000000009 /* Copy Launch Daemon Definition */;
+			membershipExceptions = (
+				"Resources/LaunchDaemons/com.vkarcher.cue.network-service.plist",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C0E10000000000000000000E /* Cue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C0E10000000000000000000C /* Exceptions for "Cue" folder in "Cue" target */,
+				C0E10000000000000000000D /* Exceptions for "Cue" folder in "Copy Launch Daemon Definition" phase from "Cue" target */,
+			);
+			path = Cue;
+			sourceTree = "<group>";
+		};
+		C0E10000000000000000000F /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C0E100000000000000000010 /* CueNetworkService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CueNetworkService;
+			sourceTree = "<group>";
+		};
+		C0E100000000000000000011 /* CueTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CueTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E100000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E100000000000000000013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E100000000000000000014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E100000000000000000015 = {
+			isa = PBXGroup;
+			children = (
+				C0E10000000000000000000E /* Cue */,
+				C0E100000000000000000010 /* CueNetworkService */,
+				C0E10000000000000000000F /* Shared */,
+				C0E100000000000000000011 /* CueTests */,
+				C0E100000000000000000016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E100000000000000000016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E10000000000000000000A /* Cue.app */,
+				C0E100000000000000000005 /* CueNetworkService */,
+				C0E10000000000000000000B /* CueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E000000000000000000007 /* CueNetworkService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E10000000000000000001C /* Build configuration list for PBXNativeTarget "CueNetworkService" */;
+			buildPhases = (
+				C0E10000000000000000001B /* Sources */,
+				C0E100000000000000000013 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C0E10000000000000000000F /* Shared */,
+				C0E100000000000000000010 /* CueNetworkService */,
+			);
+			name = CueNetworkService;
+			packageProductDependencies = (
+			);
+			productName = CueNetworkService;
+			productReference = C0E100000000000000000005 /* CueNetworkService */;
+			productType = "com.apple.product-type.tool";
+		};
+		C0E00000000000000000000D /* Cue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E10000000000000000001A /* Build configuration list for PBXNativeTarget "Cue" */;
+			buildPhases = (
+				C0E100000000000000000017 /* Sources */,
+				C0E100000000000000000012 /* Frameworks */,
+				C0E100000000000000000018 /* Resources */,
+				C0E100000000000000000008 /* Embed Network Service */,
+				C0E100000000000000000009 /* Copy Launch Daemon Definition */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E100000000000000000019 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C0E10000000000000000000E /* Cue */,
+				C0E10000000000000000000F /* Shared */,
+			);
+			name = Cue;
+			packageProductDependencies = (
+			);
+			productName = Cue;
+			productReference = C0E10000000000000000000A /* Cue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E000000000000000000020 /* CueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E10000000000000000001F /* Build configuration list for PBXNativeTarget "CueTests" */;
+			buildPhases = (
+				C0E10000000000000000001D /* Sources */,
+				C0E100000000000000000014 /* Frameworks */,
+				C0E10000000000000000001E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C0E10000000000000000000F /* Shared */,
+				C0E100000000000000000011 /* CueTests */,
+			);
+			name = CueTests;
+			packageProductDependencies = (
+			);
+			productName = CueTests;
+			productReference = C0E10000000000000000000B /* CueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E100000000000000000007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					C0E000000000000000000007 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					C0E00000000000000000000D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					C0E000000000000000000020 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = C0E100000000000000000020 /* Build configuration list for PBXProject "Cue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = C0E100000000000000000015;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C0E100000000000000000016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E00000000000000000000D /* Cue */,
+				C0E000000000000000000007 /* CueNetworkService */,
+				C0E000000000000000000020 /* CueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E100000000000000000018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E10000000000000000001E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E100000000000000000017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E10000000000000000001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E10000000000000000001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E100000000000000000019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E000000000000000000007 /* CueNetworkService */;
+			targetProxy = C0E100000000000000000006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0E100000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A7Y33JZHW5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C0E100000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A7Y33JZHW5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C0E100000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cue;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Victor Karcher. MIT License.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "To find your LG television and control it.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkarcher.cue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0E100000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cue;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Victor Karcher. MIT License.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "To find your LG television and control it.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkarcher.cue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0E100000000000000000025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkarcher.cue.network-service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0E100000000000000000026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vkarcher.cue.network-service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0E100000000000000000027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkarcher.cue.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0E100000000000000000028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkarcher.cue.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E10000000000000000001A /* Build configuration list for PBXNativeTarget "Cue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E100000000000000000023 /* Debug */,
+				C0E100000000000000000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E10000000000000000001C /* Build configuration list for PBXNativeTarget "CueNetworkService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E100000000000000000025 /* Debug */,
+				C0E100000000000000000026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E10000000000000000001F /* Build configuration list for PBXNativeTarget "CueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E100000000000000000027 /* Debug */,
+				C0E100000000000000000028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E100000000000000000020 /* Build configuration list for PBXProject "Cue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E100000000000000000021 /* Debug */,
+				C0E100000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E100000000000000000007 /* Project object */;
+}

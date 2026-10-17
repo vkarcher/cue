@@ -1,0 +1,11 @@
+# Release artifact, attached to the GitHub release instead.
+Cue.dmg
+.DS_Store
+# Xcode per-user state.
+xcuserdata/
+# Signing material and credentials stay in the keychain, never in the repository.
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+.env*

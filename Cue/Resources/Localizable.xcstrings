@@ -1,0 +1,1046 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ not found on the network": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ introuvable sur le réseau"
+          }
+        }
+      }
+    },
+    "%@ not found on the network: is it on?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ introuvable sur le réseau : est-il allumé ?"
+          }
+        }
+      }
+    },
+    "%@ · connecting…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · connexion…"
+          }
+        }
+      }
+    },
+    "%@ · game": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · jeu"
+          }
+        }
+      }
+    },
+    "%@ · off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · éteint"
+          }
+        }
+      }
+    },
+    "%@ · on": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · allumé"
+          }
+        }
+      }
+    },
+    "%lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
+    "+ − volume": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ − volume"
+          }
+        }
+      }
+    },
+    "AWDL off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AWDL coupé"
+          }
+        }
+      }
+    },
+    "AirDrop set to No One": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AirDrop sur Personne"
+          }
+        }
+      }
+    },
+    "Allow Cue in System Settings to finish the installation.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorisez Cue dans Réglages Système pour terminer l'installation."
+          }
+        }
+      }
+    },
+    "Attempt %lld: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentative %1$lld : %2$@"
+          }
+        }
+      }
+    },
+    "Automatic activation": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activation automatique"
+          }
+        }
+      }
+    },
+    "Back (Esc)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour (Échap)"
+          }
+        }
+      }
+    },
+    "Bonjour browsing failed: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche Bonjour en échec : %@"
+          }
+        }
+      }
+    },
+    "Choose your LG television, then accept the request shown on screen.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez votre téléviseur LG, puis acceptez la demande qui s'affiche à l'écran."
+          }
+        }
+      }
+    },
+    "Choose…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir…"
+          }
+        }
+      }
+    },
+    "Command %@ failed: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec de la commande %1$@ : %2$@"
+          }
+        }
+      }
+    },
+    "Command refused": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commande refusée"
+          }
+        }
+      }
+    },
+    "Connection closed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion fermée"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier"
+          }
+        }
+      }
+    },
+    "Cue": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cue"
+          }
+        }
+      }
+    },
+    "Diagnostics": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostic"
+          }
+        }
+      }
+    },
+    "During a game": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pendant une partie"
+          }
+        }
+      }
+    },
+    "Game session": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session de jeu"
+          }
+        }
+      }
+    },
+    "Gave up switching to %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bascule sur %@ abandonnée"
+          }
+        }
+      }
+    },
+    "GeForce NOW quit": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GeForce NOW fermé"
+          }
+        }
+      }
+    },
+    "GeForce NOW started": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GeForce NOW lancé"
+          }
+        }
+      }
+    },
+    "Home": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accueil"
+          }
+        }
+      }
+    },
+    "In game": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En jeu"
+          }
+        }
+      }
+    },
+    "Input": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrée"
+          }
+        }
+      }
+    },
+    "Input switch skipped: television not paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bascule ignorée : téléviseur non appairé"
+          }
+        }
+      }
+    },
+    "Install": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installer"
+          }
+        }
+      }
+    },
+    "Installed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installé"
+          }
+        }
+      }
+    },
+    "Invalid address: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse invalide : %@"
+          }
+        }
+      }
+    },
+    "Key %@: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touche %1$@ : %2$@"
+          }
+        }
+      }
+    },
+    "MAC addresses": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresses MAC"
+          }
+        }
+      }
+    },
+    "MAC addresses: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresses MAC : %@"
+          }
+        }
+      }
+    },
+    "Mute": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muet"
+          }
+        }
+      }
+    },
+    "Navigation socket unavailable": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Socket de navigation indisponible"
+          }
+        }
+      }
+    },
+    "Network service": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service réseau"
+          }
+        }
+      }
+    },
+    "No LG television found on the network.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun téléviseur LG trouvé sur le réseau."
+          }
+        }
+      }
+    },
+    "No MAC address found": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune adresse MAC trouvée"
+          }
+        }
+      }
+    },
+    "No MAC address: cannot power on remotely": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas d'adresse MAC : allumage à distance impossible"
+          }
+        }
+      }
+    },
+    "No entries": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune entrée"
+          }
+        }
+      }
+    },
+    "No television paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun téléviseur appairé"
+          }
+        }
+      }
+    },
+    "Nobody can send you a file during the game.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personne ne peut vous envoyer de fichier pendant la partie."
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun"
+          }
+        }
+      }
+    },
+    "Open Cue": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Cue"
+          }
+        }
+      }
+    },
+    "Open Cue at login": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Cue au démarrage"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir Réglages Système"
+          }
+        }
+      }
+    },
+    "Pair": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairer"
+          }
+        }
+      }
+    },
+    "Pair a television from Remote.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairez un téléviseur depuis Télécommande."
+          }
+        }
+      }
+    },
+    "Pair again": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairer à nouveau"
+          }
+        }
+      }
+    },
+    "Paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairé"
+          }
+        }
+      }
+    },
+    "Pairing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairage"
+          }
+        }
+      }
+    },
+    "Pairing failed: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairage en échec : %@"
+          }
+        }
+      }
+    },
+    "Pairing manifest missing": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manifeste d'appairage manquant"
+          }
+        }
+      }
+    },
+    "Pairing refused": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appairage refusé"
+          }
+        }
+      }
+    },
+    "Pairing request sent: accept it on the television": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demande d'appairage envoyée : accepter sur le téléviseur"
+          }
+        }
+      }
+    },
+    "Paused": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pause"
+          }
+        }
+      }
+    },
+    "Play / pause (space)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lecture / pause (espace)"
+          }
+        }
+      }
+    },
+    "Power off failed: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extinction en échec : %@"
+          }
+        }
+      }
+    },
+    "Power off skipped: television not paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extinction ignorée : téléviseur non appairé"
+          }
+        }
+      }
+    },
+    "Quit": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter"
+          }
+        }
+      }
+    },
+    "Remote": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Télécommande"
+          }
+        }
+      }
+    },
+    "Removes Wi-Fi latency spikes caused by AirDrop and Continuity.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprime les pics de latence du Wi-Fi dus à AirDrop et Continuité."
+          }
+        }
+      }
+    },
+    "Restoring…": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rétablissement en cours…"
+          }
+        }
+      }
+    },
+    "Service": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service"
+          }
+        }
+      }
+    },
+    "Service not installed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Service non installé"
+          }
+        }
+      }
+    },
+    "Starts when GeForce NOW launches and stops when it quits.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se déclenche au lancement de GeForce NOW et s'arrête à sa fermeture."
+          }
+        }
+      }
+    },
+    "Swipe to navigate · click to select": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glisser pour naviguer · cliquer pour valider"
+          }
+        }
+      }
+    },
+    "Switch input at launch": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changer de source au lancement"
+          }
+        }
+      }
+    },
+    "Switched to %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bascule sur %@ réussie"
+          }
+        }
+      }
+    },
+    "Television": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur"
+          }
+        }
+      }
+    },
+    "Television not paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur non appairé"
+          }
+        }
+      }
+    },
+    "Television removed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur retiré"
+          }
+        }
+      }
+    },
+    "Television selected: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur choisi : %@"
+          }
+        }
+      }
+    },
+    "Television turned off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur éteint"
+          }
+        }
+      }
+    },
+    "Television unreachable: %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléviseur injoignable : %@"
+          }
+        }
+      }
+    },
+    "Test input switch": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tester la bascule"
+          }
+        }
+      }
+    },
+    "Test power off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tester l'extinction"
+          }
+        }
+      }
+    },
+    "The service is not installed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le service n'est pas installé"
+          }
+        }
+      }
+    },
+    "The television is not responding": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le téléviseur ne répond pas"
+          }
+        }
+      }
+    },
+    "The television is off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le téléviseur est éteint"
+          }
+        }
+      }
+    },
+    "Turn off when quitting": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Éteindre à la fermeture"
+          }
+        }
+      }
+    },
+    "Turn the television off": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Éteindre le téléviseur"
+          }
+        }
+      }
+    },
+    "Turn the television on": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allumer le téléviseur"
+          }
+        }
+      }
+    },
+    "Turns the television off when GeForce NOW quits.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Éteint le téléviseur quand GeForce NOW se ferme."
+          }
+        }
+      }
+    },
+    "Turns the television on and shows this input when GeForce NOW starts.": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allume le téléviseur et affiche cette source au lancement de GeForce NOW."
+          }
+        }
+      }
+    },
+    "Uninstall": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désinstaller"
+          }
+        }
+      }
+    },
+    "Waiting for GeForce NOW": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente de GeForce NOW"
+          }
+        }
+      }
+    },
+    "Waiting for approval": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente d'autorisation"
+          }
+        }
+      }
+    },
+    "Wake-on-LAN failed": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec du Wake-on-LAN"
+          }
+        }
+      }
+    },
+    "Wake-on-LAN sent": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wake-on-LAN envoyé"
+          }
+        }
+      }
+    },
+    "no television": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "aucun téléviseur"
+          }
+        }
+      }
+    },
+    "not paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non appairé"
+          }
+        }
+      }
+    },
+    "paired": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "appairé"
+          }
+        }
+      }
+    },
+    "pairing and logs": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "appairage et journaux"
+          }
+        }
+      }
+    },
+    "space ⏯": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "espace ⏯"
+          }
+        }
+      }
+    },
+    "unknown": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "inconnues"
+          }
+        }
+      }
+    },
+    "← ↑ → ↓": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "← ↑ → ↓"
+          }
+        }
+      }
+    },
+    "⎋ Back": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⎋ Retour"
+          }
+        }
+      }
+    },
+    "⏎ OK": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⏎ OK"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

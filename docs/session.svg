@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">A game session with Cue</title>
+  <desc id="desc">Three steps. When GeForce NOW opens, AWDL goes off, AirDrop is set to No One and the television can switch to the Mac. While you play, AWDL is held down every 5 seconds. When GeForce NOW quits, AWDL and AirDrop are restored, its background process is stopped and the television can turn off.</desc>
+
+  <rect width="1200" height="300" rx="28" fill="#140F0D"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g id="step-launch" transform="translate(48 40)">
+      <rect width="336" height="220" rx="18" fill="#221915"/>
+      <text x="28" y="48" fill="#FF9A3C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2">01 · LAUNCH</text>
+      <text x="28" y="88" fill="#FFF4EA" font-size="26" font-weight="600">GeForce NOW opens</text>
+      <g font-size="20" fill="#D9CCC2">
+        <circle cx="34" cy="127" r="4" fill="#FF9A3C"/><text x="50" y="134">AWDL off</text>
+        <circle cx="34" cy="161" r="4" fill="#FF9A3C"/><text x="50" y="168">AirDrop set to No One</text>
+        <circle cx="34" cy="195" r="4" fill="#FF9A3C"/><text x="50" y="202">TV wakes on the Mac input *</text>
+      </g>
+    </g>
+
+    <path d="M 400 150 L 416 150 M 409 142 L 417 150 L 409 158" stroke="#8C7C71" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g id="step-play" transform="translate(432 40)">
+      <rect width="336" height="220" rx="18" fill="#221915"/>
+      <text x="28" y="48" fill="#FF9A3C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2">02 · PLAY</text>
+      <text x="28" y="88" fill="#FFF4EA" font-size="26" font-weight="600">While you play</text>
+      <g font-size="20" fill="#D9CCC2">
+        <circle cx="34" cy="127" r="4" fill="#FF9A3C"/><text x="50" y="134">AWDL held down every 5 s</text>
+        <circle cx="34" cy="161" r="4" fill="#FF9A3C"/><text x="50" y="168">A dot in the menu bar</text>
+        <circle cx="34" cy="195" r="4" fill="#FF9A3C"/><text x="50" y="202">The remote at hand</text>
+      </g>
+    </g>
+
+    <path d="M 784 150 L 800 150 M 793 142 L 801 150 L 793 158" stroke="#8C7C71" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g id="step-quit" transform="translate(816 40)">
+      <rect width="336" height="220" rx="18" fill="#221915"/>
+      <text x="28" y="48" fill="#5BD08A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2">03 · QUIT</text>
+      <text x="28" y="88" fill="#FFF4EA" font-size="26" font-weight="600">GeForce NOW quits</text>
+      <g font-size="20" fill="#D9CCC2">
+        <circle cx="34" cy="127" r="4" fill="#5BD08A"/><text x="50" y="134">AWDL and AirDrop restored</text>
+        <circle cx="34" cy="161" r="4" fill="#5BD08A"/><text x="50" y="168">Background process stopped</text>
+        <circle cx="34" cy="195" r="4" fill="#5BD08A"/><text x="50" y="202">TV turns off *</text>
+      </g>
+    </g>
+
+    <text x="1152" y="284" fill="#8C7C71" font-size="16" text-anchor="end">* optional, for a paired LG television</text>
+  </g>
+</svg>
